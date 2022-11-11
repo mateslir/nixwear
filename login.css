@@ -1,0 +1,227 @@
+@media only screen and (max-width:700px) {}
+
+    * {
+      margin: 0 auto;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+    
+header {
+    background-color: #01161E;
+    }
+
+    body {
+      background-color: #ffffff;
+    }
+    
+    #logo {
+      display: flex;
+      justify-content: center;  
+    }
+
+    #menu{
+      background-color: rgb(37, 37, 39);
+    }
+    
+    #menu ul {
+      max-width: 800px;
+      list-style: none;
+      padding: 0;
+    }
+    
+    #menu ul li {
+      display: inline;
+    }
+    
+    #menu ul li a {
+      color: #FFF;
+      padding: 20px;
+      display: inline-block;
+      text-decoration: none;
+      
+    }
+    
+    #menu ul li a:hover {
+      background-color: rgb(24, 139, 233);
+    }
+    
+    #menu ul li:last-child a {
+      float: right;
+      background-color: rgb(24, 139, 233);
+    }
+
+    h2 {
+      text-align: center;
+      padding: 3%;
+      color: #000000;
+    }
+
+    form {
+        
+      background-color: #EFF6E0;
+        margin: 0 auto;
+        width: 300px;
+        
+        padding: 1em;
+        border: 3px solid #000000;
+        border-radius: 1em;
+        
+    }
+    form div + div {
+        margin-top: 1em;
+        
+
+    }
+
+    label {
+        
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+        font-weight: bold;
+        color: #01161E;
+    }
+
+    input {
+        
+        font: 20px sans-serif;
+    
+       
+        width: 200px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    
+        border: 1px solid #01161E;
+    }
+
+    input:focus {
+        
+        border-color: #000;
+    }
+
+    button {
+      background-color: #01161E;
+      color: white;
+      width: 100px;
+    }
+
+    form p {
+      text-align: center;
+      padding: 3%;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #aec3b0;
+      padding: 20px;
+      margin-top: 20px;
+      }
+      
+      p {
+      color: #124559;
+      }
+      
+      h3 {
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      }
+      
+      
+      main div:nth-child(2) {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 400px;
+        display: grid;
+        justify-content: center;
+      }
+      
+      .grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 400px;
+        display: grid;
+        justify-content: center;
+      }
+      
+      
+      .cor9 {
+        background-color: #8ca0ff;
+       border-radius: 10px;
+       height: 3.2rem;
+       width: 8.3rem;
+       position: absolute;
+      }
+  
+      h2 {
+          color: #000000;
+          font-weight: bold;
+          margin-bottom: 20px;
+          }
+      
+      .nini {
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+      
+      li {
+        list-style-type: none;
+      }
+      
+      .h2 {
+        text-align: center;
+      }
+      
+      .texto2 {
+        text-align: center;
+      }
+      
+      .texto1 {
+        text-align: center;
+      }
+      
+      .rodinha {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 400px;
+        justify-content: center;
+      }
+      
+      .botin {
+        width: 380px;
+        display: grid;
+        justify-content: center;
+        border-radius: 8px;
+      }
+      
+      .direito {
+        width: 380px;
+        display: grid;
+        justify-content: center;
+      }
+      
+      .fundin {
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: #90e0ef;
+        width: 157px;
+      }
+      
+      .preco {
+        background-color: #90e0ef;
+        width: 50%;
+        position: relative;
+        left: -25%;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+      }
+      
+      section a {
+        text-decoration: none;
+      }
+      
+      .produto {
+        margin-bottom: 20px;
+      }
+    
